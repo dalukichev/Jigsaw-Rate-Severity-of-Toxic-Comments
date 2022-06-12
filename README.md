@@ -5,10 +5,5 @@
 # Пайплайн соревнования:
 1) Очистка данных: удаление лишних символов, ссылок, обработка эмоджи в данных
 2) Обозначение метрики (Average Agreement) и скедулера
-3) Инференс модели (ROBERTa), описание модели:
-3.1) Optimizer: AdamW
-3.2) Loss Function: MarginRankingLoss
-3.3) Model: roberta-base
-3.4) Max Epochs: 3 (~35 минут на эпоху)
-3.5) Scheduler: OneCycleLR
+3) Инференс модели (ROBERTa), описание модели: Optimizer: AdamW, Loss Function: MarginRankingLoss, Model: roberta-base, Max Epochs: 3 (~35 минут на эпоху), Scheduler: OneCycleLR
 4) Обучение и валидация
